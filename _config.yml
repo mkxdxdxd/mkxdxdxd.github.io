@@ -21,10 +21,10 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "권민경_증명사진.jpg"
+  avatar           : "mk.png"
   name             : "Minkyung Kwon"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "MS student @ KAIST AI"
   location         : "Seoul, South Korea"
   employer         : "KAIST"
   uri              : # URL
