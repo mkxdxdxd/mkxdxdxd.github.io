@@ -33,9 +33,9 @@ Work Experience
 
 Research Experiences
 ======
-- Lee Optimization Lab at POSTECH Aug. 2024 - Dec. 2024
+- Lee Optimization Lab at POSTECH, Aug. 2024 - Dec. 2024
 - Vision Information Processing Lab at SNU, Aug. 2024 – Oct. 2024  
-- Machine Learning Lab at POSTECH. Feb. 2024 - Jun. 2024
+- Machine Learning Lab at POSTECH, Feb. 2024 - Jun. 2024
 - Medical Information Processing Lab at POSTECH, Sep. 2023 – Dec.2023
 - Machine Learning Lab at POSTECH, Dec. 2022 – Feb. 2023
 
