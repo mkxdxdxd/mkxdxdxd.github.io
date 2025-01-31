@@ -28,19 +28,24 @@ Education
 Work Experience
 ======
 - Innowireless, Seongnam, Korea
+  - Jun. 2023 - Aug. 2023
   - Implementing a 3D reconstruction model in Computer Vision field (NeRF & TensoRF), analyzing code written in PyTorch and optimizing the learning pipeline of the model.
 
 Research Experiences
 ======
-- a lot
+- Lee Optimization Lab at POSTECH Aug. 2024 - Dec. 2024
+- Vision Information Processing Lab at SNU, Aug. 2024 – Oct. 2024  
+- Machine Learning Lab at POSTECH. Feb. 2024 - Jun. 2024
+- Medical Information Processing Lab at POSTECH, Sep. 2023 – Dec.2023
+- Machine Learning Lab at POSTECH, Dec. 2022 – Feb. 2023
 
 Publications
 ------
-Working on...!
+Working on...! will be updated very soon...!
 
 Academic Services
 ------
-Working on..!
+Working on..! will be updated very soon...!
 
 
 Honors
