@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a MS student at KAIST, advised by Prof. [Seungryong Kim](https://cvlab.kaist.ac.kr/members/faculty). My main research interest is 3D Vision, especially reconstruction. 
+I am a MS student at KAIST, advised by Prof. [Seungryong Kim](https://cvlab.kaist.ac.kr/members/faculty). My main research interest is 3D Vision. 
 
 Before joining KAIST, I obtained B.S. degree in Computer Science and Engineering from POSTECH. 
 
