@@ -13,7 +13,7 @@ Before joining KAIST, I obtained B.S. degree in Computer Science and Engineering
 
 News
 =====
-- Excited to start my M.S. at [KAIST AI](https://gsai.kaist.ac.kr/)
+- Excited to start my M.S. at [KAIST AI](https://gsai.kaist.ac.kr/) (Jan. 2025)
 
 Education
 ======
