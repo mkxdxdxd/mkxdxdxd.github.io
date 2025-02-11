@@ -7,9 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a MS student at KAIST, advised by Prof. [Seungryong Kim](https://cvlab.kaist.ac.kr/members/faculty). My main research interest is 3D Vision. 
+I am a M.S. student at KAIST, advised by Prof. [Seungryong Kim](https://cvlab.kaist.ac.kr/members/faculty). My main research interest is 3D Vision. 
 
 Before joining KAIST, I obtained B.S. degree in Computer Science and Engineering from POSTECH. 
+
+News
+=====
+- Excited to start my M.S. at [KAIST AI](https://gsai.kaist.ac.kr/)
 
 Education
 ======
