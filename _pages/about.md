@@ -56,4 +56,4 @@ Honors
 - Best Paper Awards, Aug. 2023
   - The department of Humanities and Social Sciences at POSTECH
 - Gigok Schorlarship, Feb. 2021 - Feb 2025
-  - 4 years full funding for tuition fees (2,790,000 won per semester)
+  - 4 years full funding for tuition fees
