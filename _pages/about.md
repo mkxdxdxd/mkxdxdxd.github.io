@@ -44,7 +44,10 @@ Research Experiences
 
 Publications
 ------
-Working on...! will be updated very soon...!
+- **CAMEO: Correspondence-Attention Alignment for Multi-View Diffusion Models**  
+  *Minkyung Kwon**, Jinhyeok Choi*, Jiho Park*, Seonghu Jeon, Jinhyuk Jang, Junyoung Seo, Minseop Kwak, Jin-Hwa Kim, Seungryong Kim  
+  arXiv preprint [arXiv:2512.03045](https://arxiv.org/abs/2512.03045), 2025.  
+  [[PDF]](https://arxiv.org/pdf/2512.03045) [[Project page]](https://cvlab-kaist.github.io/CAMEO/)
 
 Academic Services
 ------
