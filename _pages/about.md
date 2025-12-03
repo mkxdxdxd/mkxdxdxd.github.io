@@ -22,11 +22,10 @@ Education
   - Feb. 2025 - Present
 - Pohang University of Science and Technology (POSTECH), Pohang, Korea
   - BS in Computer Science and Technology 
-  - GPA 3.74/4.3
+  - Graduated Cum Laude
   - Feb. 2021 - Feb. 2025
 - Xi'an Hanova International School, Xi'an, China
   - International Baccalaureate Bilinguial Diploma
-  - 39 out of 45, 4 HLs
   - Apr. 2016 - May. 2020
 
 Work Experience
