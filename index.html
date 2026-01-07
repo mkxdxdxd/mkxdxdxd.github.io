@@ -21,10 +21,9 @@
             <nav class="nav-links">
                 <a href="#about">About</a>
                 <a href="#news">News</a>
+                <a href="#education">Education</a>
                 <a href="#publications">Publications</a>
-                <a href="#teaching">Teaching</a>
-                <a href="#service">Service</a>
-                <a href="#contact">Contact</a>
+                <a href="#others">Others</a>
                 <a href="cv.pdf" target="_blank" rel="noopener noreferrer">CV</a>
             </nav>
         </div>
@@ -57,19 +56,18 @@
                     </p>
 
                     <p class="about-links">
-                        <a href="mailto:minkyung.kwon@example.com">Email</a>
+                        <a href="mailto:minkyung.kwon@kaist.ac.kr">Email</a>
                         <span>·</span>
-                        <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer">Google
-                            Scholar</a>
+                        <a href="https://scholar.google.com/citations?hl=ko&user=Y826F2oAAAAJ" target="_blank"
+                            rel="noopener noreferrer">Google Scholar</a>
                         <span>·</span>
                         <a href="https://github.com/mkxdxdxd" target="_blank" rel="noopener noreferrer">GitHub</a>
                     </p>
                 </div>
 
                 <div class="about-photo">
-                    <!-- Replace the placeholder with your own photo (e.g., images/profile.jpg) -->
                     <div class="photo-circle">
-                        <span class="photo-initials">MK</span>
+                        <img src="images/IMG_3555.jpg" alt="Minkyung Kwon" class="profile-img">
                     </div>
                 </div>
             </div>
@@ -81,47 +79,74 @@
                 <h2>News</h2>
                 <ul class="news-list">
                     <li>
-                        <span class="news-date">Feb 2026</span>
-                        <span class="news-text">Started my M.S. at KAIST AI, focusing on 3D reconstruction from
-                            multi-view diffusion models.</span>
+                        <span class="news-date">Dec 2025</span>
+                        <span class="news-text"> Our paper <strong><a
+                                    href="https://arxiv.org/abs/2512.03045">CAMEO</a></strong> is out now on
+                            arxiv!</span>
                     </li>
                     <li>
                         <span class="news-date">Dec 2025</span>
-                        <span class="news-text">Finished a research project on view-consistent multi-view diffusion for
-                            novel view synthesis.</span>
+                        <span class="news-text"> Started MS at <strong><a href="https://ai.kaist.ac.kr/">KAIST AI
+                                    CVLab</a></strong>!</span>
                     </li>
                     <li>
                         <span class="news-date">Sep 2025</span>
-                        <span class="news-text">Joined <strong>KAIST CVLab</strong> as a graduate researcher.</span>
+                        <span class="news-text">Joined <strong><a href="https://ai.kaist.ac.kr/">KAIST AI
+                                    CVLab</a></strong> as an undergraduate
+                            researcher.</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2>Education</h2>
+                <ul class="education-list">
+                    <li>
+                        <div class="edu-school">Korea Advanced Institute of Science and Technology (KAIST)</div>
+                        <div class="edu-details">
+                            <span class="edu-degree">M.S. in Artificial Intelligence</span>
+                            <span class="edu-year">Mar. 2025 - Present</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="edu-school">Pohang University of Science and Technology (POSTECH)</div>
+                        <div class="edu-details">
+                            <span class="edu-degree">B.S. in Computer Science & Engineering</span>
+                            <span class="edu-year">Feb. 2021 - Jan. 2025</span>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
 
         <!-- PUBLICATIONS -->
-        <section id="publications" class="section">
+        <section id="publications" class="section section-alt">
             <div class="container">
                 <h2>Selected Publications</h2>
-                <p class="section-note">(* indicates equal contribution. This is a placeholder list&mdash;replace with
-                    your actual papers.)</p>
+                <p class="section-note">(* indicates equal contribution, † indicates corresponding author)</p>
 
                 <ol class="pub-list">
                     <li class="pub-item">
                         <div class="pub-tag">Preprint</div>
-                        <h3 class="pub-title">CAMEO: Correspondence-Aware Multi-View Diffusion for View-Consistent 3D
-                            Generation</h3>
-                        <p class="pub-authors">Minkyung Kwon, Collaborator A, Collaborator B</p>
-                        <p class="pub-venue">Preprint, 2026</p>
+                        <h3 class="pub-title">CAMEO: Correspondence-Attention Alignment for Multi-View Diffusion Models
+                        </h3>
+                        <p class="pub-authors">Minkyung Kwon*, Jinhyeok Choi*, Jiho Park*, Seonghu Jeon, Junyoung Seo,
+                            Minseop Kwak,
+                            Jin-Hwa Kim†, Seungryong Kim†</p>
+                        <p class="pub-venue">arXiv, 2025</p>
                         <p class="pub-links">
-                            <a href="#">arXiv</a>
+                            <a href="https://arxiv.org/abs/2512.03045">arXiv</a>
                             <span>·</span>
-                            <a href="#">Project page</a>
+                            <a href="https://cvlab-kaist.github.io/CAMEO/">Project page</a>
                             <span>·</span>
-                            <a href="#">Code</a>
+                            <a href="https://github.com/cvlab-kaist/CAMEO">Code</a>
                         </p>
                     </li>
 
-                    <li class="pub-item">
+                    <!-- <li class="pub-item">
                         <div class="pub-tag">Conference</div>
                         <h3 class="pub-title">Geometry-Aware Diffusion for Novel View Synthesis</h3>
                         <p class="pub-authors">Minkyung Kwon*, Collaborator C*, Collaborator D</p>
@@ -141,51 +166,26 @@
                         <p class="pub-links">
                             <a href="#">arXiv</a>
                         </p>
-                    </li>
+                    </li> -->
                 </ol>
             </div>
         </section>
 
-        <!-- TEACHING -->
-        <section id="teaching" class="section section-alt">
+        <!-- OTHERS -->
+        <section id="others" class="section">
             <div class="container">
-                <h2>Teaching</h2>
+                <h2>Others</h2>
                 <ul class="plain-list">
-                    <li>
-                        Teaching Assistant, <strong>Introduction to Computer Vision</strong>, KAIST, 2026 (planned)
-                    </li>
-                    <li>
-                        Teaching Assistant, <strong>Deep Learning</strong>, POSTECH, 2024
-                    </li>
+                    <li>⚾ Big fan of the KBO team <strong><a href="https://www.kt-wiz.com/">KT Wiz</a></strong>!</li>
+                    <li>✈️ I love traveling and exploring new places!</li>
                 </ul>
-            </div>
-        </section>
 
-        <!-- SERVICE -->
-        <section id="service" class="section">
-            <div class="container">
-                <h2>Service &amp; Activities</h2>
-                <ul class="plain-list">
-                    <li>Reviewer for major ML / CV conferences (e.g., NeurIPS, CVPR).</li>
-                    <li>Organizer and mentor for student reading groups on 3D vision and diffusion models.</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- CONTACT -->
-        <section id="contact" class="section section-alt">
-            <div class="container">
-                <h2>Contact</h2>
-                <p>
-                    The best way to reach me is by email:
-                    <a href="mailto:minkyung.kwon@example.com">minkyung.kwon@example.com</a>.
-                </p>
-                <p>
-                    You can also find me on
-                    <a href="https://github.com/mkxdxdxd" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    and (soon) on
-                    <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer">Google Scholar</a>.
-                </p>
+                <div class="photo-dump">
+                    <img src="images/others/IMG_1854_2.jpg" alt="Minkyung's hobby photo" class="dump-item">
+                    <img src="images/others/IMG_4189_2.jpg" alt="Minkyung's hobby photo" class="dump-item">
+                    <img src="images/others/IMG_4952.jpg" alt="Minkyung's hobby photo" class="dump-item">
+                    <img src="images/others/IMG_9133_2.jpg" alt="Minkyung's hobby photo" class="dump-item">
+                </div>
             </div>
         </section>
     </main>

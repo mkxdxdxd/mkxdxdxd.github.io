@@ -132,7 +132,7 @@ body {
 }
 
 .about-text a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .about-links {
@@ -164,8 +164,11 @@ body {
     box-shadow: 0 18px 40px rgba(15, 23, 42, 0.25);
 }
 
-.photo-initials {
-    letter-spacing: 0.08em;
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 /* News */
@@ -192,6 +195,56 @@ body {
 
 .news-text {
     font-size: 0.95rem;
+}
+
+.news-text a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+
+/* Education */
+.education-list {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.education-list li {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+.education-list li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.edu-school {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+.edu-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 4px;
+    font-size: 1rem;
+}
+
+.edu-degree {
+    color: #374151;
+}
+
+.edu-year {
+    color: #6b7280;
+    font-weight: 500;
+    font-feature-settings: "tnum";
+    white-space: nowrap;
+    margin-left: 12px;
 }
 
 /* Publications */
@@ -253,7 +306,7 @@ body {
 }
 
 .pub-links a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Plain lists (teaching, service) */
@@ -265,6 +318,65 @@ body {
 .plain-list li {
     padding: 6px 0;
     font-size: 0.95rem;
+}
+
+.plain-list li a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.plain-list li a:hover {
+    text-decoration: none;
+}
+
+/* Photo Dump Gallery */
+.photo-dump {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 32px;
+    justify-content: flex-start;
+}
+
+.dump-item {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 6px solid #ffffff;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+}
+
+.dump-item:nth-child(3n+1) {
+    transform: rotate(-3deg);
+}
+
+.dump-item:nth-child(3n+2) {
+    transform: rotate(2deg);
+}
+
+.dump-item:nth-child(3n) {
+    transform: rotate(-1deg);
+}
+
+.dump-item:hover {
+    transform: rotate(0deg) scale(1.15);
+    z-index: 10;
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.2);
+}
+
+@media (max-width: 768px) {
+    .photo-dump {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .dump-item {
+        width: 130px;
+        height: 130px;
+    }
 }
 
 /* Footer */
