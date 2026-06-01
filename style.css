@@ -7,6 +7,13 @@
     padding: 0;
 }
 
+/* Media never overflows its container */
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -291,6 +298,8 @@ body {
 .pub-thumb img,
 .pub-thumb video {
     width: 100%;
+    max-height: 160px;
+    object-fit: contain;
     display: block;
     border-radius: 8px;
     border: 1px solid rgba(148, 163, 184, 0.35);
@@ -473,6 +482,7 @@ body {
     .pub-thumb {
         flex: 0 0 auto;
         width: 100%;
+        max-width: 280px;
     }
 
     .pub-title {
