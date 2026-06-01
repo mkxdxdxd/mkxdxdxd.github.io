@@ -213,9 +213,24 @@ body {
 }
 
 .education-list li {
+    display: flex;
+    align-items: center;
+    gap: 16px;
     margin-bottom: 16px;
     padding-bottom: 16px;
     border-bottom: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+.edu-logo {
+    flex: 0 0 48px;
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.edu-info {
+    flex: 1 1 auto;
+    min-width: 0;
 }
 
 .education-list li:last-child {
@@ -258,12 +273,33 @@ body {
 
 .pub-item {
     position: relative;
+    display: flex;
+    gap: 18px;
     padding: 16px 18px;
     margin-bottom: 12px;
     border-radius: 12px;
     background: #ffffff;
     border: 1px solid rgba(148, 163, 184, 0.4);
     box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+}
+
+.pub-thumb {
+    flex: 0 0 200px;
+    align-self: flex-start;
+}
+
+.pub-thumb img,
+.pub-thumb video {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    background: #f1f5f9;
+}
+
+.pub-body {
+    flex: 1 1 auto;
+    min-width: 0;
 }
 
 .pub-tag {
@@ -430,7 +466,13 @@ body {
     }
 
     .pub-item {
+        flex-direction: column;
         padding: 14px 14px;
+    }
+
+    .pub-thumb {
+        flex: 0 0 auto;
+        width: 100%;
     }
 
     .pub-title {
