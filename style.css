@@ -159,8 +159,8 @@ body {
 
 .photo-circle {
     position: relative;
-    width: 160px;
-    height: 160px;
+    width: 250px;
+    height: 250px;
     border-radius: 999px;
     background: linear-gradient(135deg, #2563eb, #4f46e5);
     display: flex;
@@ -174,6 +174,8 @@ body {
 }
 
 .profile-img {
+    position: absolute;
+    inset: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -182,10 +184,9 @@ body {
     transform-origin: center;
 }
 
-/* Original photo, revealed on hover */
+/* Original photo, revealed on hover (stacked above the default) */
 .profile-img-alt {
-    position: absolute;
-    inset: 0;
+    z-index: 1;
     opacity: 0;
     transform: scale(1.15);
     object-position: 60% 42%;
@@ -341,9 +342,8 @@ body {
 }
 
 .pub-tag {
-    position: absolute;
-    right: 18px;
-    top: 16px;
+    display: inline-block;
+    margin-bottom: 6px;
     font-size: 0.7rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -357,8 +357,6 @@ body {
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 4px;
-    padding-right: 80px;
-    /* space for tag */
 }
 
 .pub-authors {
