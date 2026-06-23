@@ -273,6 +273,20 @@ body {
 }
 
 /* Publications */
+.pub-group-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #111827;
+    margin-top: 24px;
+    margin-bottom: 4px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid rgba(37, 99, 235, 0.25);
+}
+
+.pub-group-title:first-of-type {
+    margin-top: 12px;
+}
+
 .pub-list {
     list-style: none;
     margin-top: 10px;
